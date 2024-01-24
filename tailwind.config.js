@@ -7,6 +7,10 @@ module.exports = {
         body: ["Outfit"],
         young: "'Young Serif', serif",
       },
+      colors: {
+        sectionTitle: "#854632",
+        text: "#5f574e",
+      },
     },
   },
   plugins: [],
