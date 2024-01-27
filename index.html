@@ -24,26 +24,34 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
-    <div class="w-full min-h-full font-body text-[16px] text-text">
+    <div
+      class="w-full min-h-full font-body text-[16px] bg-[#f3e6d8] text-text sm:py-10"
+    >
       <!-- image -->
-      <div class="flex justify-center flex-col">
-        <div class="">
-          <img src="./assets/images/image-omelette.jpeg" class="block" alt="" />
+      <div
+        class="max-w-[640px] md:max-w-[650px] m-auto bg-white sm:p-8 sm:rounded-xl"
+      >
+        <div class="overflow-hidden sm:rounded-xl sm:m-auto">
+          <img
+            src="./assets/images/image-omelette.jpeg"
+            class="block w-full h-full"
+            alt=""
+          />
         </div>
         <!-- end of image -->
 
         <!-- main -->
-        <div class="w-[85%] m-auto py-7">
+        <div class="w-[85%] m-auto py-7 sm:w-auto">
           <h1 class="text-4xl text-[#302d2c] font-young">
             Simple Omelette Recipe
           </h1>
-          <p class="pr-1 my-4 text-text">
+          <p class="my-4 text-text">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
           </p>
           <!-- Preparation -->
-          <div class="rounded-xl bg-[#7b284f10] py-4 px-5">
+          <div class="rounded-xl bg-[#fff5fa] py-4 px-5">
             <p class="font-bold text-xl mb-3 text-[#7b284f]">
               Preparation time
             </p>
@@ -115,7 +123,7 @@
 
           <!-- Nutrition -->
           <p class="text-3xl font-young text-sectionTitle my-4">Nutrition</p>
-          <p class="pr-2 my-4 text-text">
+          <p class="my-4 text-text">
             The table below shows nutritional values per serving without the
             additional fillings.
           </p>
