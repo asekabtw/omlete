@@ -546,6 +546,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -589,10 +593,6 @@ video {
   display: table;
 }
 
-.hidden{
-  display: none;
-}
-
 .h-full{
   height: 100%;
 }
@@ -621,10 +621,6 @@ video {
   max-width: 640px;
 }
 
-.max-w-\[650px\]{
-  max-width: 650px;
-}
-
 .list-decimal{
   list-style-type: decimal;
 }
@@ -635,10 +631,6 @@ video {
 
 .flex-col{
   flex-direction: column;
-}
-
-.justify-center{
-  justify-content: center;
 }
 
 .justify-between{
@@ -657,13 +649,9 @@ video {
   border-radius: 0.75rem;
 }
 
-.bg-\[\#7b284f10\]{
-  background-color: #7b284f10;
-}
-
-.bg-cyan-200{
+.bg-\[\#f3e6d8\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(165 243 252 / var(--tw-bg-opacity));
+  background-color: rgb(243 230 216 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#fff5fa\]{
@@ -671,22 +659,9 @@ video {
   background-color: rgb(255 245 250 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#f3e6d8\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 230 216 / var(--tw-bg-opacity));
-}
-
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.p-5{
-  padding: 1.25rem;
-}
-
-.p-6{
-  padding: 1.5rem;
 }
 
 .px-5{
@@ -711,14 +686,6 @@ video {
 
 .pl-4{
   padding-left: 1rem;
-}
-
-.pr-1{
-  padding-right: 0.25rem;
-}
-
-.pr-2{
-  padding-right: 0.5rem;
 }
 
 .font-body{
@@ -772,11 +739,6 @@ video {
   color: rgb(95 87 78 / var(--tw-text-opacity));
 }
 
-.text-\[\#fff5fa\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 245 250 / var(--tw-text-opacity));
-}
-
 .marker\:text-\[\#7b284f\] *::marker{
   color: rgb(123 40 79 );
 }
@@ -798,37 +760,16 @@ video {
     margin: auto;
   }
 
-  .sm\:w-\[85\%\]{
-    width: 85%;
-  }
-
-  .sm\:w-\[90\%\]{
-    width: 90%;
-  }
-
   .sm\:w-auto{
     width: auto;
-  }
-
-  .sm\:max-w-\[650px\]{
-    max-width: 650px;
   }
 
   .sm\:rounded-xl{
     border-radius: 0.75rem;
   }
 
-  .sm\:p-6{
-    padding: 1.5rem;
-  }
-
   .sm\:p-8{
     padding: 2rem;
-  }
-
-  .sm\:py-6{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
   }
 
   .sm\:py-10{
@@ -840,9 +781,5 @@ video {
 @media (min-width: 768px){
   .md\:max-w-\[650px\]{
     max-width: 650px;
-  }
-
-  .md\:p-6{
-    padding: 1.5rem;
   }
 }
